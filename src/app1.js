@@ -1,3 +1,5 @@
+import Vue from 'vue'
+
 Vue.component('txt', require('./components/text.vue'))
 
 const app = new Vue({
