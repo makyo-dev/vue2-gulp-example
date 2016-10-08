@@ -2,12 +2,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Vue</title>
+  <link rel="stylesheet" href="/cloak.css">
 </head>
 <body>
   <div id="app">
-    <p>[ message ]</p>
-    <txt text="some text 1"></txt>
-    <button @click="clickButton">ok</button>
+    <div v-cloak>
+      <p>[ message ]</p>
+      <txt text="some text 1"></txt>
+      <button @click="clickButton">ok</button>
+    </div>
   </div>
   
   <br>
